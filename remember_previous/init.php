@@ -1,25 +1,25 @@
 <?php
 class Remember_Previous extends Plugin {
 
-	private $link;
-	private $host;
+  private $link;
+  private $host;
 
 
-	function about() {
-		return Array(
+  function about() {
+    return Array(
         1.0 // version
       , "Remember your last-viewed category or feed." // description
       , "wn" // author
       , false // is system
       , "https://www.github.com/supahgreg/ttrss-previous-previous" // more info URL
     );
-	}
+  }
 
 
-	function init($host) {
-		//$this->link = $host->get_link();
-		//$this->host = $host;
-	}
+  function init($host) {
+    //$this->link = $host->get_link();
+    //$this->host = $host;
+  }
   
   function get_js() {
     return <<<'JS'

@@ -1,13 +1,12 @@
 <?php
 class Remember_Previous extends Plugin {
 
-  private $link;
   private $host;
 
 
   function about() {
     return Array(
-        1.0 // version
+        1.1 // version
       , "Remember your last-viewed category or feed." // description
       , "wn" // author
       , false // is system
@@ -17,7 +16,6 @@ class Remember_Previous extends Plugin {
 
 
   function init($host) {
-    //$this->link = $host->get_link();
     //$this->host = $host;
   }
   

@@ -6,7 +6,7 @@ class Remember_Previous extends Plugin {
 
   function about() {
     return Array(
-        1.1 // version
+        1. // version
       , "Remember your last-viewed category or feed." // description
       , "wn" // author
       , false // is system
@@ -15,10 +15,16 @@ class Remember_Previous extends Plugin {
   }
 
 
+  function api_version() {
+    return 2;
+  }
+
+
   function init($host) {
     //$this->host = $host;
   }
-  
+ 
+
   function get_js() {
     return <<<'JS'
 ;(function(aSetActiveFeedId) {

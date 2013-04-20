@@ -6,11 +6,11 @@ class Remember_Previous extends Plugin {
 
   function about() {
     return Array(
-        1. // version
+        1.2 // version
       , "Remember your last-viewed category or feed." // description
       , "wn" // author
       , false // is system
-      , "https://www.github.com/supahgreg/ttrss-previous-previous" // more info URL
+      , "https://www.github.com/supahgreg/ttrss-remember-previous" // more info URL
     );
   }
 

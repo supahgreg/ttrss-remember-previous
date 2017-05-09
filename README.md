@@ -5,7 +5,7 @@ Remember your last-viewed category or feed.
 
 The data is currently saved in a cookie, and is therefore not carried across browsers/computers.
 
-A [Tiny Tiny RSS](http://www.tt-rss.org) plugin.
+A [Tiny Tiny RSS](https://tt-rss.org) plugin.
 
 Installation
 ------------

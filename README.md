@@ -9,5 +9,8 @@ A [Tiny Tiny RSS](https://tt-rss.org) plugin.
 
 Installation
 ------------
-1. Copy the `remember_previous` directory to the `plugins` directory of your Tiny Tiny RSS installation.
-2. Go to Preferences / Plugins and enable `remember_previous`.
+1. Clone the repo to **remember_previous** in your tt-rss **plugins.local** directory:
+
+   `git clone https://github.com/supahgreg/ttrss-remember-previous.git remember_previous`
+
+2. Enable the plugin @ Preferences / Plugins

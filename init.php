@@ -6,7 +6,7 @@ class Remember_Previous extends Plugin {
 
   function about() {
     return [
-      1.3, // version
+      1.4, // version
       'Remember your last-viewed category or feed.', // description
       'wn', // author
       false, // is system
@@ -41,8 +41,7 @@ require(['dojo/ready'], (ready) => {
       if (/^-?\d+,[01]$/.test(prev)) {
         console.log(`[Remember_Previous] restoring category or feed: ${prev}`);
         prev = prev.split(',');
-        hash_set('f', prev[0]);
-        hash_set('c', prev[1]);
+        App.Hash.set({f: prev[0], c: prev[1]});
       }
     });
   });

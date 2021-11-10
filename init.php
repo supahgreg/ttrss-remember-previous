@@ -1,12 +1,8 @@
 <?php
 class Remember_Previous extends Plugin {
-
-  private $host;
-
-
   function about() {
     return [
-      1.4, // version
+      1.5, // version
       'Remember your last-viewed category or feed.', // description
       'wn', // author
       false, // is system
@@ -21,7 +17,6 @@ class Remember_Previous extends Plugin {
 
 
   function init($host) {
-    //$this->host = $host;
   }
 
 
@@ -49,4 +44,3 @@ require(['dojo/ready'], (ready) => {
 JS;
   }
 }
-?>
